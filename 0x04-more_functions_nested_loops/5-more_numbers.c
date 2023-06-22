@@ -14,7 +14,7 @@ i = 0;
 while (i < 10)
 {
 n = '0';
-while (n <= 'z')
+while (n <= '14')
 {
 _putchar(n);
 n++;

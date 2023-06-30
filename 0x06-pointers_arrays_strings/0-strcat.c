@@ -3,10 +3,9 @@
  * _strcat - concatenates two strings
  * @dest: the first string
  * @src: the second string
- * @n: number of bytes
  * Return: the pointer to dest.
  */
-char *_strcat(char *dest, char *src, int n)
+char *_strcat(char *dest, char *src)
 {
 	int s1 = 0, s2 = 0;
 
@@ -14,7 +13,7 @@ char *_strcat(char *dest, char *src, int n)
 	{
 		s1++;
 	}
-	while (s2 < n)
+	while (s2 >= 0)
 	{
 		*(dest + s1) = *(src + s2);
 		if (*(src + s2) == '\0')

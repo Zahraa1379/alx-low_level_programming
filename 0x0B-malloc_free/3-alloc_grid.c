@@ -8,8 +8,6 @@
  */
 int **alloc_grid(int width, int height)
 {
-	int **alloc_grid(int width, int height)
-{
 	int **gridout;
 	int i, j;
 
